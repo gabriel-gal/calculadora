@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="image/iconCalculadora.png" type="image/x-icon">
+    <title>Calculadora - Gabriel</title>
+</head>
+<body>
+
+    <main>
+        <p id="visor">0</p>
+        <p id="numVisor"></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button class="buttonTeclas" onclick="limpar()">C</button></td>
+                    <td><button class="buttonTeclas" onclick="apagarUlt()">&#62;</button></td>
+                    <td><button class="buttonTeclas" onclick="operacao('dividir')">/</button></td>
+                    <td><button class="buttonTeclas" onclick="operacao('multip')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="buttonNumber" onclick="inserir('7')">7</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('8')">8</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('9')">9</button></td>
+                    <td><button class="buttonTeclas" onclick="operacao('menos')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="buttonNumber" onclick="inserir('4')">4</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('5')">5</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('6')">6</button></td>
+                    <td><button class="buttonTeclas" onclick="operacao('mais')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="buttonNumber" onclick="inserir('1')">1</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('2')">2</button></td>
+                    <td><button class="buttonNumber" onclick="inserir('3')">3</button></td>
+                    <td rowspan="2"><button class="buttonTeclas" style="height: 150px;" onclick="resultado()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="buttonNumber" style="width: 150px;" onclick="inserir('0')">0</button></td>
+                    <td><button class="buttonNumber" onclick="inserirPonto('.')">.</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div>
+            <a href="https://github.com/gabriel-gal" target="_blank"><img src="image/imgGithub.png" alt="icone do github"></a>
+            <a href="https://www.linkedin.com/in/gabriel-lopes-1719ba236/" target="_blank"><img src="image/imgLinkedin.png" alt="icone do Linkedin"></a>
+        </div>
+        <div>
+            <p id="text">Site criado por Gabriel Alves Lopes</p>
+        </div> 
+        
+    </footer>
+</body>
+</html>
