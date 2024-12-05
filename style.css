@@ -70,15 +70,14 @@ button.buttonTeclas:hover{
     font-size: 2.2rem;
 }
 
-footer{
-    
+section{
     width: 100%;
     text-align: center;
     font-size: larger;
     font-weight: bold;
 }
 
-footer img{
+section img{
     position: relative;
     top: 1.25rem;
     padding: 0.1rem;
