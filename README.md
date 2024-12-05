@@ -1,23 +1,24 @@
 # Calculadora
 
-![Texto alternativo](./src/image/cripto.png)
+![Texto alternativo](./image/calculadora.png)
 
-[`Clique para visitar o projeto`](https://cripto-gabrielgal.vercel.app)
+[`Clique para visitar o projeto`](https://calculadora-gabrielgal.vercel.app)
 
 ## Descrição
 
-O **Cripto** é um projeto que permite visualizar o desempenho de diversas criptomoedas em tempo real. Utilizando gráficos interativos, você pode acompanhar a variação de preços, a performance e muito mais! A plataforma utiliza a API do **CoinGecko** para obter dados de criptomoedas atualizados, e exibe essas informações com a ajuda da biblioteca **Shadcn Charts**.
+A **Calculadora** é um projeto que simula o funcionamento de uma calculadora de forma prática e intuitiva. Com uma interface simples e funcional, você pode realizar operações básicas como adição, subtração, multiplicação e divisão em poucos cliques! Este site foi desenvolvido utilizando HTML, CSS e JavaScript, com base nos conceitos fundamentais de programação web.
 
 ## Tecnologias Usadas
 
-- **Tailwind CSS**: Framework de CSS que facilita a criação de interfaces com um design moderno e responsivo.
-- **Shadcn Charts**: Biblioteca JavaScript para a criação de gráficos interativos, utilizada para mostrar o desempenho das criptos.
-- **CoinGecko API**: API que fornece dados em tempo real sobre o mercado de criptomoedas, incluindo preços, volume de mercado e muito mais.
+- **HTML** : Linguagem de marcação utilizada para estruturar o conteúdo do site.
+- **CSS** : Utilizado para estilizar a interface, deixando-a atraente e funcional.
+- **JavaScript** : Linguagem de programação responsável pela lógica e interatividade da calculadora.
 
 ## Funcionalidades
 
-- Visualização dos preços das criptomoedas.
-- Gráficos interativos com a variação de preços.
+- Simulação de uma calculadora funcional.
+- Realização de operações básicas: adição, subtração, multiplicação e divisão.
+- Interface simples e intuitiva.
 
 ## Como Usar
 
